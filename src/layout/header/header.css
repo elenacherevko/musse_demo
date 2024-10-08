@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: center;
+  font-size: 150px;
+  text-decoration-color: black;
+  background-image: url('./../../../public/img_14.png');
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: left;
+  font-family: 'Qwitcher Grypen', cursive;
+  font-weight: 800;
+}
+.Header > * {
+  flex: 1;
+}
+
+.Title {
+  text-align: center;
+  padding: 100px;
+}
+
+.Icons {
+  padding-top: 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: right;
+  padding-right: 80px;
+}
+
+.svg-inline--fa {
+  width: 35px;
+  height: 45px;
+}
+.CartIcon {
+  position: fixed;
+  display: flex;
+  justify-content: right;
+  top: 30px;
+  right: 30px;
+  font-size: 38px;
+}
+.item-count {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: black;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}

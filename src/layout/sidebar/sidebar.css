@@ -1,0 +1,9 @@
+.Sidebar {
+  display: flex;
+  min-width: 200px;
+  padding-top: 13px;
+  flex-direction: column;
+  background: white;
+  align-items: stretch;
+  justify-content: flex-start;
+}

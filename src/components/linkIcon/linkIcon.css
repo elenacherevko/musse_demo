@@ -1,0 +1,10 @@
+.linkIcon {
+  display: flex;
+  align-items: normal;
+  color: black;
+  font-size: 40px;
+}
+
+.linkIcon svg {
+  margin-left: 5px;
+}

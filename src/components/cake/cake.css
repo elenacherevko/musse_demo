@@ -1,0 +1,48 @@
+.Cake {
+  position: relative;
+  width: 290px;
+  padding: 10px;
+  border: 1px solid gray;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  transition: all 0.2s ease-in-out;
+}
+
+.Cake:hover {
+  transform: scale(1.05);
+}
+
+.cake-hover-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ddd;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify-all;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: opacity 0.3s ease;
+}
+.cake-hover-info button {
+  background-color: palevioletred;
+  color: white;
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.cake-hover-info button:active {
+  transform: scale(0.95);
+}
+.cake-hover-info button:hover {
+  background-color: palevioletred;
+  color: white;
+}
